@@ -2,7 +2,7 @@
     <wb-module deploy-name="day16-ProductServlet">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <property name="context-root" value="day16-ProductServlet"/>
         <property name="java-output-path" value="/day16-ProductServlet/build/classes"/>
+        <property name="context-root" value="shop"/>
     </wb-module>
 </project-modules>
