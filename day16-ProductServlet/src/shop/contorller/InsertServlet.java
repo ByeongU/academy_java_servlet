@@ -62,8 +62,8 @@ public class InsertServlet extends HttpServlet {
 		// (1) insert.jsp 에서 넘어온 파라미터 추출
 		String prodCode = request.getParameter("prodCode");
 		String prodName	= request.getParameter("prodName");
-		int price = Integer.parseInt(request.getParameter("price"));
-		int quantity = Integer.parseInt(request.getParameter("quantity"));
+		int    price    = Integer.parseInt(request.getParameter("price"));
+		int    quantity = Integer.parseInt(request.getParameter("quantity"));
 		
 		// (2) Product 타입으로 포장
 		Product product = new Product(prodCode, prodName, price, quantity);

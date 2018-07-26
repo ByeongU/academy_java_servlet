@@ -48,11 +48,16 @@
 				</td>
 			</tr>
 			<tr>
-				<td colspan="2">
+				<td colspan="2" style="text-align: right;">
 					<input type="submit" value="등록하기">
 					<input type="reset" value="초기화">
 				</td>
 			</tr>
+			<tr>
+				<td colspan="2" style="text-align: right;">
+					<a href="menu">메뉴로 돌아가기</a>
+				</td>
+			</tt>
 		</tr>
 	</table>
 </form>
